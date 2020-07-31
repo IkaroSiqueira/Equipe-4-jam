@@ -8,7 +8,7 @@ public class Dor : MonoBehaviour
     public int H = 0;
     public void dor(int H)
     {
-        D =Random.Range(1, 3);
+        D =Random.Range(1, 4);
         switch (D)
         {
             case 1:
@@ -32,17 +32,20 @@ public class Dor : MonoBehaviour
             case 1:
                 Debug.Log("dor verde");
                 H=0;
+                D = 0;
                 break;
             case 2:
                 Debug.Log("dor amarela");
                 H=0;
+                D = 2;
                 break;
             case 3:
                 Debug.Log("dor vermelha");
                 H=0;
+                D = 0;
                 break;
             default:
             break;
         }
     }
-    }
+}
