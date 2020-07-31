@@ -647,6 +647,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b149bae2edcb55c4c96143c2c9495057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Dtime: 5
+  infected: 0
+  Con: {fileID: 1761911439}
 --- !u!1 &460852092
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,6 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36b7617468469f948aad22502d41ff2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  "infec\xE7\xE3o": {fileID: 416519429}
 --- !u!114 &546318612
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -21,7 +21,7 @@ public class ControladorDeVida : MonoBehaviour
             dano(20);
         }
     }
-    void dano(float Dalor)
+    public void dano(float Dalor)
     {
         if(vidatual>=0)
         {
