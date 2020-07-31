@@ -34,6 +34,10 @@ public class ControladorDeVida : MonoBehaviour
         if(vidatual<=100)
         {
         vidatual += Halor;
+        if(vidatual > 100)
+        {
+            vidatual = 100;
+        }
         V.SetVid(vidatual);
         }
     }
