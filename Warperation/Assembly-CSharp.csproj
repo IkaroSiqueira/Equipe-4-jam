@@ -58,9 +58,10 @@
      <Compile Include="Assets\Scripts\ControladorDeVida.cs" />
      <Compile Include="Assets\Scripts\vida.cs" />
      <Compile Include="Assets\Scripts\pinicilina.cs" />
+     <Compile Include="Assets\Scripts\Dor.cs" />
      <Compile Include="Assets\Scripts\bandagem.cs" />
      <Compile Include="Assets\Scripts\morfina.cs" />
-     <Compile Include="Assets\Scripts\Dor.cs" />
+     <Compile Include="Assets\Scripts\Infecção.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

@@ -23,12 +23,18 @@ public class ControladorDeVida : MonoBehaviour
     }
     void dano(float Dalor)
     {
+        if(vidatual>=0)
+        {
         vidatual -= Dalor;
         V.SetVid(vidatual);
+        }
     }
     public void cura(float Halor)
     {
+        if(vidatual<=100)
+        {
         vidatual += Halor;
         V.SetVid(vidatual);
+        }
     }
 }
